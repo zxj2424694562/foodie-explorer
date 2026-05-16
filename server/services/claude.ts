@@ -1,6 +1,6 @@
 import https from 'https';
 
-const API_KEY = 'REDACTED_OLD_KEY';
+const API_KEY = process.env.DEEPSEEK_API_KEY || '';
 const API_BASE = 'https://api.deepseek.com/v1';
 const MODEL = 'deepseek-v4-pro';
 
